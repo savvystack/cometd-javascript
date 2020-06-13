@@ -1454,6 +1454,9 @@
             var afterURI = urlParts[9];
             _crossDomain = _cometd._isCrossDomain(hostAndPort);
 
+            if (_config.externalScheduler)
+                _scheduler = _config.externalScheduler;
+                
             // Check if appending extra path is supported.
             if (_config.appendMessageTypeToURL) {
                 if (afterURI !== undefined && afterURI.length > 0) {
