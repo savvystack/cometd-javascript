@@ -1,4 +1,7 @@
-## The CometD Project
+## A K6-compatible CometD Client
+
+This is still work in progress. Stay tuned.
+
 
 Welcome to the [CometD](https://cometd.org) Project, a scalable comet 
 (server push) and websocket messaging library for the web.
